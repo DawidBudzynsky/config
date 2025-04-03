@@ -1,0 +1,68 @@
+-- local builtin = require("telescope.builtin")
+-- return {
+--   "nvim-telescope/telescope.nvim",
+--   keys = {
+--
+--     {
+--       "<leader><leader>",
+--       builtin.find_files,
+--       desc = "find files",
+--     },
+--
+--     {
+--       "<leader>ss",
+--       builtin.live_grep,
+--       desc = "Live grep",
+--     },
+--
+--     {
+--       "<leader>ts",
+--       function()
+--         local word = vim.fn.expand("<cword>")
+--         builtin.grep_string({ search = word })
+--       end,
+--       desc = "Greps the word under the cursor",
+--     },
+--     {
+--       "<leader>tS",
+--       function()
+--         local word = vim.fn.expand("<cWORD>")
+--         builtin.grep_string({ search = word })
+--       end,
+--       desc = "Greps the word under cursor to the space ' ' ",
+--     },
+--     {
+--       "<leader>vh",
+--       function()
+--         builtin.help_tags({})
+--       end,
+--       -- desc = "Greps the word under cursor to the space ' ' ",
+--     },
+--     {
+--       "<leader>;t",
+--       "<cmd>:TodoTelescope<cr>",
+--       desc = "Greps the word under cursor to the space ' ' ",
+--     },
+--     {
+--       "<leader>tb",
+--       builtin.buffers,
+--       desc = "List the buffers",
+--     },
+--
+--     -- git commands
+--     {
+--       "<leader>gb",
+--       builtin.git_branches,
+--       desc = "Git branches",
+--     },
+--   },
+--   -- change some options
+--   opts = {
+--     defaults = {
+--       layout_strategy = "horizontal",
+--       layout_config = { prompt_position = "top" },
+--       sorting_strategy = "ascending",
+--       winblend = 0,
+--     },
+--   },
+-- }

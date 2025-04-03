@@ -1,0 +1,17 @@
+return {
+  { "rcarriga/nvim-notify", enabled = false },
+  { "akinsho/bufferline.nvim", enabled = false },
+  { "nvim-lualine/lualine.nvim", enabled = false },
+  { "lukas-reineke/indent-blankline.nvim", enabled = false },
+  { "echasnovski/mini.indentscope", enabled = false },
+  { "echasnovski/mini.ai", enabled = false },
+  { "folke/noice.nvim", enabled = false },
+  { "folke/neoconf.nvim", enabled = false },
+  { "folke/neodev.nvim", enabled = false },
+  { "folke/flash.nvim", enabled = false },
+  { "nvimdev/dashboard-nvim", enabled = false },
+  -- { "saghen/blink", enabled = false },
+  -- { "ibhagwan/fzf-lua", enabled = false },
+  -- { "mini.pairs", enabled = false },
+  { "nvim-telescope/telescope.nvim", enabled = false },
+}
